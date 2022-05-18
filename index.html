@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax Website</title>
+    <link rel="stylesheet" href="C:\Users\niqat\Desktop\Coding\Personal Projects\Parallax Website\css\project.css.css">
+    <style>
+        body,
+html {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: rgb(21, 56, 36);
+}
+
+li {
+  margin: 30px;
+}
+
+a:link {
+  color: rgb(251, 253, 251);
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:visited {
+  color: rgb(131, 131, 131);
+  background-color: transparent;
+  text-decoration: none;
+}
+.pimg1,
+.pimg2,
+.pimg3,
+.pimg4 {
+  position: relative;
+  opacity: 0.7;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 50%;
+
+  background-attachment: fixed;
+}
+.pimg1 {
+  background-image: url("https://wallpaperaccess.com/full/92833.jpg");
+  min-height: 100%;
+}
+
+.pimg2 {
+  background-image: url("https://wallpaperaccess.com/full/773426.jpg");
+  min-height: 100%;
+}
+.pimg3 {
+  background-image: url("https://environmentamerica.org/sites/environment/files/Pg%201%20-%20boreal%20forest%20-%20Anton%20Watman%20via%20shutterstock_249851350%20%281%29.jpg");
+  min-height: 100%;
+}
+.pimg4 {
+  background-image: url("https://s1.1zoom.me/b5050/611/Germany_Forests_Morning_Trees_Moss_Rays_of_light_585887_3840x2400.jpg");
+  min-height: 100%;
+}
+.section {
+  text-align: center;
+  padding: 50px 80px;
+}
+.section-dark {
+  background-color: #666;
+  color: #ddd;
+}
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: rgb(228, 255, 249);
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+.ptext .border {
+  background-color: #111;
+  color: #fff;
+}
+
+.ptext .border.trans {
+  background-color: transparent;
+}
+
+li {
+  color: rgb(255, 255, 255);
+  list-style: none;
+  display: inline;
+}
+
+.endmessage {
+  position: absolute;
+  top: 53%;
+  width: 100%;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-family: "Lato", sans serif;
+  font-weight: 400;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  background-color: #111;
+  padding-left
+}
+
+
+
+@media (max-width: 568px) {
+  .pimg1,
+  .pimg2,
+  .pimg3,
+  .pimg4 {
+    background-attachment: scroll;
+  }
+}
+
+    </style>
+<body>
+   
+    <div class="pimg1">
+        <div class="ptext">
+            <span class="border">
+The Effects of Deforestation
+            </span>
+    </div>
+</div>
+    <section class="section section-dark">
+        <h2>What is Deforestation?</h2>
+        <p>
+            Deforestation occurs when forests are depleted through logging and not replacing trees. The most prevalent motive for land clearing is to make room for crops and ranches. Trees were frequently felled for firewood and lumber, as well as to make room for cities. Many animals die as a result of deforestation, which destroys their habitat.
+        </p>
+    </section>
+    <div class="pimg2">
+        <div class="ptext">
+            <span class="border trans">
+How has it Affected us?
+            </span>
+        </div>
+    </div>
+<section class="section section-dark">
+        <h2>Why should you care?</h2>
+        <p>
+Climate change, desertification, soil erosion, less crops, flooding, higher greenhouse gas levels in the atmosphere, and a slew of other issues for indigenous peoples can all result from the loss of trees and other plants. Carbon dioxide is absorbed and stored by trees. When trees are removed or simply disturbed, carbon dioxide and other greenhouse gases are released. Around 10% of global warming is caused by forest loss and destruction. We won't be able to combat the climate catastrophe unless we cease deforestation.        </p>
+    </section>
+    <div class="pimg3">
+        <div class="ptext">
+            <span class="border trans">
+How you can help
+</span>
+        </div>
+    </div>
+
+     <section class="section section-dark">
+        <h2>How can I help?</h2>
+        <p>
+Plant a tree where you can, go paperless at home and at work, buy recycled products and then recycle them again, buy certified wood products, read labels and look for the FSC (Forest Stewardship Council) mark, support products from companies committed to reducing deforestation, raise awareness in your circle and in your community, buy only what you will use, and avoid using Palm Oil or products containing Palm Oil.        </p>
+    </section>
+
+     <div class="pimg4">
+        <div class="ptext">
+            <span class="border trans">
+                Deforestation Conservation Groups
+            </span>
+        </div>
+    </div>
+
+     <section class="section section-dark">
+        <h2>Here are a few Forest Conservation Groups</h2>
+        <p>
+            <ul>
+                <li>
+                    <a href=" https://trees.org/ "target = "_blank">Trees</a>
+                </li>
+                <li>
+            <a href=" https://www.rainforest-alliance.org/"target = "_blank">Rainforest Alliance</a>
+
+                </li>
+                <li>
+                    <a href="https://act.ran.org/page/27612/donate/1?ea.tracking.id=ad_gad&en_og_source=ad_gad&gclid=CjwKCAiAo4OQBhBBEiwA5KWu_29gXQsyOVpR-uTudoRWXX_6H8MhPtvA7-4zLNPv8gotUXelJB7_ohoCbAcQAvD_BwE 
+"target = "_blank">Rainforest Action Network</a>
+                </li>
+    
+            </ul>
+        </p>
+    </section>
+     <div class="pimg1">
+        <div class="ptext">
+            <span class="border">
+Thank You       
+  
+            </span>
+    </div>
+</div>
+
+</body>
+</html>
